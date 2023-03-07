@@ -10,7 +10,6 @@ export default function Card(props) {
   return (
     <>
       <div className="text-xl flex flex-col gap-3 relative">
-        {/* {openSpots === 0 && <div className="absolute top-2 left-2 bg-white p-2 text-sm rounded-md">SOLD OUT</div>} */}
         {badgeText && (
           <div className="absolute top-2 left-2 bg-white p-2 text-sm rounded-md">
             {badgeText}
